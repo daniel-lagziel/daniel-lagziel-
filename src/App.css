@@ -1,0 +1,112 @@
+body {
+  height: 100%;
+  margin: 0;
+  background-color: rgba(128,128,128,0.20);
+}
+.headerDiv{
+  padding: 10px;
+}
+.bg{
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px;
+}
+.App {
+  text-align: center;
+  padding: 0px;
+}
+@media (max-width: 768px){
+.fiveDaysDiv{ 
+  flex-wrap:wrap;
+}
+.headerDiv{
+  flex-wrap:wrap; 
+}
+.fiveDaysCard{
+  font-size: 12px;
+  border-radius: 40px;
+}
+.favoriteCard{
+  font-size: 20px;
+  border-radius: 40px; 
+}
+.favoriteCardDiv{
+  flex-wrap: wrap;
+}
+}  
+@media (min-width: 768px){
+  .fiveDaysDiv{ 
+    flex-wrap:wrap;
+    font-size: 10px;
+  }
+  .buttonHome{
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .fiveDaysCard{
+    font-size: 40px;
+    border-radius: 40px;
+  }
+  .headerDiv{
+    flex-wrap:wrap; 
+    font-size: 40px;
+  }
+  .favoriteCard{
+    font-size: 40px;
+    border-radius: 40px;
+   
+  }
+  .AutoCompleteText_input{
+    bottom: 15px;
+  position: relative;
+  
+  }
+  
+  
+}
+.fiveDaysDiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .try{background-color: rgba(0, 0, 0, .18);} */
+.AutoCompleteText{
+  width: 80%;
+  border: #282c34 solid 1px;
+  background-color: rgb(252, 250, 250);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, .1) rgba(0, 0, 0, .18);
+  height: 100%;
+  margin: 0;
+
+}
+.AutoCompleteText_input{
+width: 100%;
+height: 40px;
+border: none;
+font-size: 24px;
+box-sizing: border-box;
+padding: 10px 5px;
+
+}
+.AutoCompleteText_li{
+  padding: 10px 5px;
+  
+  cursor:pointer;
+  padding: 0;
+}
+.AutoCompleteText_li:hover{
+  text-decoration: underline;
+  background-color: rgba(128,128,128,0.20);
+}
+
+.AutoCompleteText_ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+
